@@ -1,7 +1,9 @@
 # Experimentos com AVL e BST
 
+Linguagem: Python 3.10.10
+
 ## Dados
-- [x] Baixar [CSV com dados](https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube) de músicas do Spotify e do YouTube
+- [x] Baixar [CSV com série temporal de preços de Bitcoin](https://www.kaggle.com/datasets/aakashverma8900/bitcoin-price-usd)
 
 ## AVL
 - Complexidade de tempo de busca (pior e médio casos) : O(log n)
