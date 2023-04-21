@@ -9,20 +9,20 @@ Linguagem: Python 3.10.10
 - Complexidade de tempo de busca (pior e médio casos) : O(log n)
 - Complexidade de tempo de escrita (pior e médio casos): O(log n)
 
-- [ ] Escrever rotinas para ler o arquivo e mapear os dados em uma AVL
+- [x] Escrever rotinas para ler o arquivo e mapear os dados em uma AVL
   - Gravar tempo de cada inserção - plotar por inserção, tempo mínimo, máximo e médio
-  - [ ] Escrever rotinas para buscar determinados atributos (danceability, energy, key). 
+  - [x] Escrever rotinas para buscar determinados atributos (danceability, energy, key). 
 
 ## BST
 - Complexidade de tempo de busca (pior e médio casos, respectivamente) : O(n) e O(log n)
 - Complexidade de tempo de escrita (pior e médio casos, respectivamente): O(n) e O(log n)
 
-- [ ] Escrever rotinas para ler o arquivo e mapear os dados em uma Árvore Binária de Busca
+- [x] Escrever rotinas para ler o arquivo e mapear os dados em uma Árvore Binária de Busca
   - Gravar tempo de cada inserção - plotar por inserção, tempo mínimo, máximo e médio
-  - [ ] Escrever rotinas para buscar determinados atributos (danceability, energy, key). 
+  - [x] Escrever rotinas para buscar determinados atributos (danceability, energy, key). 
 
 
 ## Apresentação
-- [ ] Criar gráficos, tabelas ou outros recursos para demonstrar resultados comparativos de desempenho entre a Árvore Binária de Busca e AVL.
+- [x] Criar gráficos, tabelas ou outros recursos para demonstrar resultados comparativos de desempenho entre a Árvore Binária de Busca e AVL.
 
 - [ ] Discutir como seria montada cada árvore com buscar feitas por outro campo que não seja a chave.
