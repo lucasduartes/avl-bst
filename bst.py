@@ -35,4 +35,4 @@ def time_bst(df):
     tf = time()
     total_time_read = tf - t0
     average_read_time = sum(time_to_read_seconds)/len(time_to_read_seconds)
-    return average_insertion_time, total_time_write, average_read_time, total_time_read
+    return average_insertion_time, total_time_write, average_read_time, total_time_read, time_to_insert_seconds
