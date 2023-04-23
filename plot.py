@@ -1,12 +1,25 @@
 #!/usr/bin/env python
-from avl import time_avl
-from bst import time_bst
+from bintrees import BinaryTree, AVLTree
 from load_csv import load_csv
+from time_tree import time_tree
 import matplotlib.pyplot as plt
 
 df = load_csv()
-average_insertion_time_avl, total_time_write_avl, average_read_time_avl, total_time_read_avl, time_to_insert_seconds_avl = time_avl(df)
-average_insertion_time_bst, total_time_write_bst, average_read_time_bst, total_time_read_bst, time_to_insert_seconds_bst = time_bst(df)
+avl = AVLTree()
+bst = BinaryTree()
+(average_insertion_time_avl, 
+ total_time_write_avl, 
+ average_read_time_avl, 
+ total_time_read_avl, 
+ time_to_insert_seconds_avl, 
+ height_avl) = time_tree(df, avl)
+
+(average_insertion_time_bst, 
+ total_time_write_bst, 
+ average_read_time_bst, 
+ total_time_read_bst, 
+ time_to_insert_seconds_bst, 
+ height_bst) = time_tree(df, bst)
 
 fig, axs = plt.subplots(2, 3, figsize=(12,10))
 axs[0, 0].bar(['AVL', 'BST'], [total_time_write_avl, total_time_write_bst])
