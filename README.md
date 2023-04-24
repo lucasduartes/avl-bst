@@ -2,6 +2,12 @@
 
 Linguagem: Python 3.10.10
 
+## Libs
+pandas: https://pandas.pydata.org/docs/
+bintress: https://pypi.org/project/bintrees/
+matplotlib: https://matplotlib.org/stable/index.html
+time: https://docs.python.org/3/library/time.html
+
 ## Dados
 - [x] Baixar [CSV com série temporal de preços de Bitcoin](https://www.kaggle.com/datasets/aakashverma8900/bitcoin-price-usd)
 
