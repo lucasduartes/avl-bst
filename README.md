@@ -3,10 +3,10 @@
 Linguagem: Python 3.10.10
 
 ## Libs
-pandas: https://pandas.pydata.org/docs/
-bintress: https://pypi.org/project/bintrees/
-matplotlib: https://matplotlib.org/stable/index.html
-time: https://docs.python.org/3/library/time.html
+- pandas: https://pandas.pydata.org/docs/
+- bintress: https://pypi.org/project/bintrees/
+- matplotlib: https://matplotlib.org/stable/index.html
+- time: https://docs.python.org/3/library/time.html
 
 ## Dados
 - [x] Baixar [CSV com série temporal de preços de Bitcoin](https://www.kaggle.com/datasets/aakashverma8900/bitcoin-price-usd)
@@ -33,4 +33,4 @@ time: https://docs.python.org/3/library/time.html
 ![Comparação das estruturas](comparação.png)
 
 - [ ] Discutir como seria montada cada árvore com buscar feitas por outro campo que não seja a chave.
- - porra na minha opinião eu acho que seria mau uso da estrutura de dados. O interessante é justamente buscar pelo campo chave pelo ganho de performance, que é em decorrência da diminuição da quantidade de elementos que precisam ser acessados para achar o elemento-alvo na estrutura. Se não usar a chave, é a mesma coisa que usar um array/lista qualquer, a complexidade aumenta para O(n).
+ 
